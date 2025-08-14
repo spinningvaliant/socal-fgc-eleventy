@@ -2,7 +2,7 @@ body {
   color: black;
   font-family: Verdana;
   background-color: #B29AD9;
-  cursor: url("/images/cursor_strive_default.png") 4 10, default;
+  cursor: url("/images/cursor_strive_default.png") 0 0, default;
 
 }
 
@@ -22,7 +22,7 @@ a:active, a:hover {
 }
 		
 a, a:hover, a:active {
-  cursor: url("/images/cursor_strive_link.png") 3 19, pointer;
+  cursor: url("/images/cursor_strive_link.png") 0 0, pointer;
 }
 
 .grid-container{
@@ -291,4 +291,5 @@ ul.none {
   text-decoration: double underline;
   color: white;
   background-color: #dea4c5;
+
 }
