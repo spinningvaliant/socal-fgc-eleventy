@@ -25,6 +25,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/images/");
     eleventyConfig.addPassthroughCopy("./src/not_found.html");
     eleventyConfig.addPassthroughCopy("./src/.htaccess");
+	eleventyConfig.addPassthroughCopy("CNAME");
 	
     // Load the RSS plugin
     eleventyConfig.addPlugin(pluginRss);
@@ -96,4 +97,5 @@ module.exports = function (eleventyConfig) {
         };
 
     };
+
 
