@@ -3,11 +3,18 @@
   <title>SoCal FGC Blog</title>
   <subtitle>SoCal FGC insights and updates</subtitle>
   <link href="https://socalfgc.net/rss.xml" rel="self"/>
-  <updated>2025-08-13T00:00:00Z</updated>
+  <updated>2025-08-14T00:00:00Z</updated>
   <id>https://socalfgc.net/</id>
   <author>
     <name>SoCal FGC Team</name>
   </author>
+  <entry>
+    <title>eleventy woes continue</title>
+    <link href="https://socalfgc.net/posts/2025-08-14-eleventy.html"/>
+    <updated>2025-08-14T00:00:00Z</updated>
+    <id>https://socalfgc.net/posts/2025-08-14-eleventy.html</id>
+    <content xml:lang="" type="html"><![CDATA[<img src="https://yourwebsitehere.com/images/">]]>eleventy is my best friend</content>
+  </entry>
   <entry>
     <title>Eleventy Migration</title>
     <link href="https://socalfgc.net/posts/2025-08-13-Eleventy-Migration.html"/>

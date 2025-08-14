@@ -4,16 +4,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoCal FGC: Blog</title>
+    <title>SoCal FGC: eleventy woes continue</title>
     <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="https://socalfgc.net/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for SoCal FGC">
 	<meta name="description" content="Resource for members of the Southern California Fighting Game community!">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="SoCal FGC: Blog">
-    <meta property="og:url" content="https://socalfgc.net/{{ page.fileSlug }}.html">
-    <meta property="og:image" content="https://socalfgc.net/images/favicon.png">
-    <meta property="og:description" content="These are where all blog posts go!">
+    <meta property="og:title" content="SoCal FGC: eleventy woes continue">
+    <meta property="og:url" content="https://socalfgc.net/posts/{{ page.date | date: &#39;%Y-%m-%d&#39; }}-{{ page.fileSlug }}.html">
+    <meta property="og:image" content="https://socalfgc.net/images/">
+    <meta property="og:description" content="eleventy is my best friend">
   </head>
   
   <body>
@@ -34,17 +34,32 @@
 	  </div>
 
       <div id="content" class="grid-item">
-	  <h2>All Posts</h2>
-<!--This next part shows all of your posts tagged "posts" in reverse chronological order-->
-<ul class="none">
-<li><a href="/posts/2025-08-14-eleventy.html">2025-08-14 » eleventy woes continue</a></li>
-<li><a href="/posts/2025-08-13-Eleventy-Migration.html">2025-08-13 » Eleventy Migration</a></li>
-</ul>
-<hr>
-<h2>Tag Cloud</h2>
-<!--This next part shows links to all the tags you have on your posts, ordered by frequency-->
-<p class="center"><a href="../tags/website-update.html">website update</a> (2) </p>
+	  
+        <article>
+          <h1>eleventy woes continue</h1>
 
+          <div class="postMetadata">
+          <!--You can change how topDate looks in your .eleventy.js file-->
+          <strong>2025 August 14</strong> //
+          <!--This will list the tags on your post EXCEPT for the "post" tag, separated by commas-->
+          
+            <a href="../tags/website-update.html">website update</a>
+            </div>
+          
+          <!--The content of your post-->
+          <p>I am trying so hard. Please work.</p>
+<p>Lani</p>
+
+          
+          <!--This will take you to the next/previous blog entries if they exist-->
+          <nav id="nextprev">
+          
+          <a href="../archives.html">Archives</a>
+          
+          | <a class="previous" href="/posts/2025-08-13-Eleventy-Migration.html">Previous »</a>
+          
+          </nav>
+        </article>
 	  	  </div>
 
 	</div>
