@@ -1,5 +1,3 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-
 // Tells Eleventy to look for the Luxon plugin
 const { DateTime } = require('luxon');
 
@@ -27,13 +25,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/images/");
     eleventyConfig.addPassthroughCopy("./src/not_found.html");
     eleventyConfig.addPassthroughCopy("./src/.htaccess");
-
-	// necessary to automatically prepend the prefix to internal links
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-  return {
-    // prefix used by GitHub Pages, usually your project name
-    pathPrefix: "/socal-fgc-eleventy/"
-  };
 	
     // Load the RSS plugin
     eleventyConfig.addPlugin(pluginRss);
@@ -105,3 +96,4 @@ module.exports = function (eleventyConfig) {
         };
 
     };
+
